@@ -6,6 +6,7 @@ Następnie - wklejony kod z komentarzem (wszystko co mamy)
 Dalej - wklejone przykłady działania, jakiś wykres, może tabela, zrzut ekranu
 Na zakończenie - krótkie wnioski, 2 - 3 zdania
 
+Oprócz PDF-a, pliki z kodem wyslac mu na maila.
 
 
 OGÓLNA IDEA METODY MONTE CARLO
