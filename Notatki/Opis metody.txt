@@ -1,3 +1,12 @@
+Mój pomysł na strukturę raportu:
+str 1. nazwa przedmiotu, autorzy, tytuł projektu, np. "System transakcyjny optymalizujący strategię handlową przy użyciu metody Monte Carlo i oscylatorów"
+Od str 2. - opis użytej metody (czyli zawartość bieżacego pliku)
+Dalej - informacje techniczne typu co trzeba mieć, by uruchomić nasz system transakcyjny (jakie pliki)
+Następnie - wklejony kod z komentarzem (wszystko co mamy)
+Dalej - wklejone przykłady działania, jakiś wykres, może tabela, zrzut ekranu
+Na zakończenie - krótkie wnioski, 2 - 3 zdania
+
+
 
 OGÓLNA IDEA METODY MONTE CARLO
 Wybrana przez nas metoda - Monte Carlo - polega na modelowaniu obiektów matematycznych, które dają się opisać w sposób probabilistyczny. 
