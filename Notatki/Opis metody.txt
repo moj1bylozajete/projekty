@@ -1,0 +1,25 @@
+
+OGÓLNA IDEA METODY MONTE CARLO
+Wybrana przez nas metoda - Monte Carlo - polega na modelowaniu obiektów matematycznych, które dają się opisać w sposób probabilistyczny. 
+Model jest konstruowany przez algorytm, którego działanie jest zgodne z zasadami teorii prawdopodobieństwa.
+Metoda używa generatorów pseudo-losowych do tworzenia zmiennych losowych, mających wymagany rozkład.
+Warto wiedzieć, że metoda Monte Carlo znajduje również zastosowania w problemach związanych z obszarem metod numerycznych.
+
+JAK DZIAŁA ALGORYTM?
+Algorytm metody zawiera wiele losowo generowanych zmiennych badanego obiektu. Zbiór cech matematycznych jest obliczany dla każdej z prób losowych.
+W rezultacie otrzymujemy dużą próbę, której interpretacja pozwoli zoptymalizować strategię handlową. Podczas gdy standardowo posiadamy tylko jeden zbiór właściwości danego obiektu, dzięki metodzie Monte Carlo otrzymujemy wiele takich charakterystyk. Dzięki takiej ilości danych, program jest w stanie podejmować optymalne decyzje.
+Zaimplementowanie metody pozwoli zbadać stabilność wskażników Expert Advisora. Żeby to osiągnąć, potrzebujemy modelu probabilistycznego opisującego ich pracę.
+
+Bazując na historii trendu, nie możemy z góry założyć, iż przyszłe transakcje utworzą taki sam ciąg jak przeszłe. Możemy jednak zakładać pewne podobieństwo. Historyczne dane pozwalają określić typ rozkładu nadchodzących transakcji.
+
+CELE ALGORYTMU
+Zadaniem algorytmu jest skonstruować kryteria optymalizacji. Najważniejszym kryterium jest zysk uzyskany w wyniku serii przeprowadzonych transakcji. 
+Optymalizacja zysku jest wbudowana do testera. Ponieważ jesteśmy zainteresowani przyszłymi zyskami, zadaniem programu jest ocenić możliwy stopień odchylenia zysków na podstawie teraźniejszych zysków.
+Czym mniejsze odchylenie, tym pewniejszy zysk i korzyści z naszego systemu transakcyjnego.
+
+Link do artykułu:
+https://www.mql5.com/en/articles/4347
+
+Kod, w którym wykonywane są obliczenia zgodnie z metodą, jest zawarty w pliku mcarlo.mqh. Jest on zaaplikowany do systemu transakcyjnego za pomocą komendy #include.
+
+
